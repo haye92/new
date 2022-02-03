@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="kitapYayinevi" alignment="0" max="32767" attributes="0"/>
+                      <Component id="kitapKategori" alignment="0" max="32767" attributes="0"/>
+                      <Component id="kitapSayfa" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="kitapYazari" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="kitapAdi" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="kitapEkleYayinevi" alignment="0" max="32767" attributes="0"/>
+                  <Component id="kitapEkleAdi" alignment="1" max="32767" attributes="0"/>
+                  <Component id="kitapEkleYazari" alignment="0" max="32767" attributes="0"/>
+                  <Component id="kitapEkleSayfa" alignment="0" max="32767" attributes="0"/>
+                  <Component id="kitapEkleKategori" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="kitapEkleButon" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="kitapAdi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kitapEkleAdi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="kitapYazari" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kitapEkleYazari" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="kitapSayfa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kitapEkleSayfa" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="kitapKategori" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kitapEkleKategori" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="kitapYayinevi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="kitapEkleYayinevi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Component id="kitapEkleButon" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="kitapAdi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="K&#x130;TAP ADI:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kitapYazari">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="K&#x130;TAP YAZARI:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="kitapEkleButon">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kitap Ekle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kitapEkleButonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kitapSayfa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="K&#x130;TAP SAYFA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="kitapEkleYayinevi">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="kitapEkleKategori">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="12">
+            <StringItem index="0" value="Bir Kategori Se&#xe7;iniz"/>
+            <StringItem index="1" value="Bilim&amp;M&#xfc;hendislik"/>
+            <StringItem index="2" value="&#xc7;ocuk Kitaplar&#x131;"/>
+            <StringItem index="3" value="Dini"/>
+            <StringItem index="4" value="Edebi Kitaplar"/>
+            <StringItem index="5" value="E&#x11f;itim"/>
+            <StringItem index="6" value="Ki&#x15f;isel Geli&#x15f;im"/>
+            <StringItem index="7" value="Sa&#x11f;l&#x131;k"/>
+            <StringItem index="8" value="Siyasi"/>
+            <StringItem index="9" value="Tarihi"/>
+            <StringItem index="10" value=" "/>
+            <StringItem index="11" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kitapEkleKategoriActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kitapKategori">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="K&#x130;TAP KATEGOR&#x130;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kitapYayinevi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="K&#x130;TAP YAYINEV&#x130;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="kitapEkleAdi">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kitapEkleAdiActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="kitapEkleYazari">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kitapEkleYazariActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="kitapEkleSayfa">
+    </Component>
+  </SubComponents>
+</Form>
